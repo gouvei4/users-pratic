@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "outDir": "./dist/",
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "paths": {
+        "@services/*": ["src/services/userServices/*"],
+        "@controllers/*": ["src/controllers/*"]
+      }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
